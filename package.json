@@ -1,0 +1,32 @@
+{
+  "name": "basic-angular-app",
+  "version": "1.0.0",
+  "description": "Using Angular.js ExpressJS and Webpack to create a simple app",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishidas/basic-angular-app.git"
+  },
+  "author": "sawako.yoriko@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishidas/basic-angular-app/issues"
+  },
+  "homepage": "https://github.com/ishidas/basic-angular-app#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "css-loader": "^0.23.1",
+    "mocha": "^2.4.5",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
